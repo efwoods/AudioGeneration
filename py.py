@@ -17,7 +17,7 @@ def voice():
     resp.say('Never gonna give you up, {}!'.format(city), voice='alice')
 
     # # Play an audio file for the caller
-    # resp.play('https://demo.twilio.com/docs/classic.mp3')
+    # resp.play('https://github.com/efwoods/AudioGeneration/blob/test/output.wav')
 
     return str(resp)
 
