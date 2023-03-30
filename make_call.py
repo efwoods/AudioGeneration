@@ -20,7 +20,8 @@ response.play('https://api.twilio.com/cowbell.mp3', loop=10)
 print(response)
 '''
 call = client.calls.create(
-                        url='http://demo.twilio.com/docs/voice.xml',
+                        #url='http://demo.twilio.com/docs/voice.xml',
+                        url='s3://voice-call-audio/output.wav',
                         to='+18439060633',
                         from_='+18432030673'
                     )
